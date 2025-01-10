@@ -40,14 +40,14 @@ O aplicativo permite que o usuário jogue contra o sistema, que faz escolhas ale
 2. Abra o projeto no Android Studio.
 3. Compile e execute o aplicativo em um dispositivo ou emulador Android.
 
-## 📸 Capturas de Tela
-
-_Adicione aqui imagens do aplicativo em funcionamento._
-
-## 📜 Licença
-
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT). Consulte o arquivo `LICENSE` para mais informações.
+## Autor
+Desenvolvido por [Gabriel Dias](https://github.com/diasoficial). Sinta-se à vontade para contribuir ou enviar feedback!
 
 ---
 
-Desenvolvido por [Gabriel Dias](https://github.com/diasoficial).
+## 📜 Licença
+Este projeto é open-source e está disponível sob a [Licença MIT](./LICENSE).
+
+---
+
+## 📸 Capturas de Tela
