@@ -86,19 +86,25 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void somarGanhos(String escolhaUsuario) {
+    public void somarGanhos(String escolhaUsuario) {
+        int qtdPerdas = 0;
+        int qtdGanhos = 0;
+
         String escolhaApp = gerarEscolhaAleatoriaApp();
 
-        TextView textoResultado = findViewById(R.id.text_resultado); // Exibe para o usuario
+        TextView textoPerdas = findViewById(R.id.qtdPerdas); // Exibe para o usuario
+        TextView textoGanhos = findViewById(R.id.qtdGanhos); // Exibe para o usuario
 
         if( // App é ganhador
                 (escolhaApp == "pedra" && escolhaUsuario == "tesoura") ||
                 (escolhaApp == "papel" && escolhaUsuario == "pedra") ||
                 (escolhaApp == "tesoura" && escolhaUsuario == "papel")
         ) {
-            qtdPerdas.setText("Você perdeu :(");
+            qtdPerdas = qtdPerdas++;
+            textoPerdas.setText(qtdPerdas);
         } else {
-            textoResultado.setText("Você ganhou!! :)");
+            qtdGanhos = qtdGanhos++;
+            textoGanhos.setText(qtdGanhos);
         }
     }
 }
